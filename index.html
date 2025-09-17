@@ -1,169 +1,617 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Charles Schwab</title>
-    <!-- Custom Style Sheet -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-<script async="" src="js/log7.js"></script></head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Verified Charles Schwab Coupons & Promo Codes - September 2025</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0; padding: 0;
+      background: #fff;
+      font-family: 'Montserrat', Arial, sans-serif;
+      color: #232323;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    .topbar {
+      background: #15b4c3;
+      color: #fff;
+      font-size: 1.2rem;
+      padding: 0.5rem 0;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      min-height: 57px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+    }
+    .topbar-inner {
+      width: 100%;
+      max-width: 1260px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 0 18px;
+    }
+    .topbar-logo {
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: -1px;
+      line-height: 1.2;
+    }
+    .topbar nav {
+      display: flex;
+      gap: 1.5rem;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    .topbar .search {
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+    }
+    .notice {
+      color: #595959;
+      background: #f1f6f8;
+      font-size: 0.98rem;
+      padding: 12px 0 0 0;
+      text-align: right;
+      max-width: 1260px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .offer-header-area {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      max-width: 1260px;
+      margin: 0 auto;
+      padding: 1.5rem 16px 0;
+      flex-wrap: wrap;
+    }
+    .schwab-logo {
+      width: 130px; height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      background: transparent;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .schwab-logo img {
+      width: 100%; height: 100%; object-fit: contain; background: white;
+      border-radius: 8px; border: 1px solid #e2e3e3;
+      display: block;
+    }
+    @media (max-width: 680px) {
+      .schwab-logo { width: 96px; height: 54px;}
+      .offer-header-area { gap: 14px; }
+    }
+    .offer-main-title {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 0.6rem;
+      color: #232323;
+    }
+    .trusted-partner {
+      color: #098082;
+      font-size: 1rem;
+      font-weight: 500;
+      margin-bottom: 0.6rem;
+    }
+    .offer-availability {
+      font-size: 1rem;
+      color: #686868;
+      margin-bottom: 0.7rem;
+      font-weight: 400;
+    }
+    .tabs {
+      display: flex;
+      gap: 1.3rem;
+      margin: 2rem 0 0.5rem 0;
+      border-bottom: 2px solid #ececec;
+      max-width: 1260px;
+      padding: 0 16px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .tab {
+      padding: 0.8rem 1.2rem 0.55rem 1.2rem;
+      font-weight: 600;
+      color: #232323;
+      text-transform: capitalize;
+      font-size: 1.1rem;
+      border: none;
+      background: none;
+      border-bottom: 3px solid transparent;
+    }
+    .tab.selected {
+      color: #1d227d;
+      border-bottom: 3px solid #1d227d;
+      background: #fff;
+    }
+    /* Coupon grid & sidebar */
+    .content-row {
+      max-width: 1260px;
+      margin: 0 auto;
+      display: flex;
+      gap: 34px;
+      justify-content: space-between;
+      align-items: start;
+      padding: 0 16px;
+    }
+    @media (max-width: 1100px) { .content-row { gap: 15px; } }
+    @media (max-width: 900px) { .content-row { flex-direction: column; gap: 35px; } }
+    .main-coupons { flex: 3; min-width: 0; }
+    .offer-card, .highlight-card {
+      background: #fff;
+      border-radius: 9px;
+      padding: 20px 18px 16px 18px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07), 0 1.5px 6px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      position: relative;
+      flex-wrap: wrap;
+      min-height: 48px;
+    }
+    .offer-card .left {
+      flex: 1 1 65%;
+      min-width: 220px;
+    }
+    .offer-card .badge {
+      font-size: 0.75rem;
+      color: #fff;
+      background: #16254e;
+      padding: 4px 13px;
+      border-radius: 14px 14px 0 0;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    .offer-date {
+      position: absolute;
+      right: 18px;
+      top: 11px;
+      font-size: 0.93rem;
+      color: #677088;
+      font-weight: 500;
+    }
+    .offer-tag {
+      font-size: 1.2rem;
+      color: #00a899;
+      font-weight: 700;
+      letter-spacing: -1px;
+      align-items: center;
+      display: flex;
+    }
+    .offer-desc {
+      font-size: 1.12rem;
+      font-weight: 600;
+      margin: 10px 0 0 0;
+      color: #232323;
+    }
+    .offer-caption {
+      color: #789;
+      font-size: 0.97rem;
+      margin-top: 0.3rem;
+    }
+    .get-offer-btn {
+      background: #1fa7aa;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.15rem;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      min-width: 115px;
+      text-align: center;
+      text-decoration: none;
+      white-space: nowrap;
+      box-shadow: 0 1.5px 6px rgba(0,0,0,0.04);
+      margin-left: 16px;
+      margin-top: 4px;
+      transition: background 0.15s;
+    }
+    .get-offer-btn:hover, .get-offer-btn:focus {
+      background: #137981;
+      color: #fff;
+    }
+    @media (max-width: 600px){
+      .offer-card, .highlight-card { flex-direction: column; gap: 10px; padding: 16px 9px 13px 12px; }
+      .get-offer-btn { width: 100%; margin: 16px 0 0 0; padding: 12px 0;}
+      .offer-card { min-height: 0;}
+      .offer-card .badge, .offer-date { position: static; display: block; margin: 0; }
+    }
+    .sidebar {
+      flex: 1 0 320px;
+      max-width: 340px;
+      background: none;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1.5px 6px rgba(0,0,0,0.06);
+      padding: 18px 14px 18px 20px;
+      margin-bottom: 10px;
+    }
+    .card h3 { margin-top: 2px; font-size: 1.14rem; font-weight: 700; color: #021337;}
+    .card ul { margin: 12px 0 0 0; padding: 0; }
+    .card li { list-style: none; margin-bottom: 7px;}
+    .card .expert-list{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 12px 0 5px 0;
+      align-items: center;
+    }
+    .expert-person {
+      background: #f1f3fc;
+      border-radius: 6px;
+      padding: 7px 10px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 90px;
+      font-size: 0.98rem;
+    }
+    .expert-person img {
+      width: 38px; height: 38px; border-radius: 50%; object-fit: cover; margin-bottom: 3px;
+    }
+    .expert-name {
+      margin-bottom: 2px;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .expert-title {
+      color: #555;
+      font-size: 0.89rem;
+    }
+    .card .learn-link {
+      color: #036794;
+      display: inline-block;
+      font-size: 0.97rem;
+      margin-top: 7px;
+    }
+    .card .learn-link:hover { color: #0080a4; }
+    .expert-more {
+      color: #036794;
+      display: inline-block;
+      font-size: 0.97rem;
+      margin-top: 8px;
+      font-weight: 600;
+    }
+    @media (max-width: 900px){
+      .sidebar { max-width: 100%; flex: unset; }
+    }
+    @media (max-width: 600px){
+      .offer-header-area, .content-row, .sidebar{ padding: 0 3px; }
+      .sidebar {margin: 0 auto;}
+    }
+    .highlight-card {
+      border-radius: 12px;
+      padding: 18px 14px 16px 20px;
+      margin-top: 15px;
+      margin-bottom: 18px;
+      flex-direction: column;
+      border: 2px solid #1D266C;
+      background: #fff;
+    }
+    .highlight-title {
+      font-weight: 700;
+      margin-bottom: 5px;
+      margin-top: 0;
+      background: #1d266c;
+      color: #fff;
+      width: fit-content;
+      border-radius: 7px 7px 0 0;
+      padding: 4px 16px 2px 12px;
+      font-size: 1rem;
+    }
+    .signup-box { text-align: center; margin: 16px 0; }
+    .signup-text {
+      font-size: 1.18rem;
+      font-weight: 700;
+      color: #222;
+      margin-bottom: 7px;
+    }
+    .signup-form {
+      display: flex;
+      gap: 0;
+      justify-content: center;
+      align-items: center;
+      max-width: 420px;
+      margin: 0 auto;
+      padding: 0;
+    }
+    .signup-form input[type="email"] {
+      font-size: 1rem;
+      padding: 10px 8px;
+      border: 1px solid #bfcbe1;
+      border-radius: 5px 0 0 5px;
+      width: 70%;
+      outline: none;
+    }
+    .signup-form button {
+      padding: 10px 14px;
+      background: #00a5a5;
+      color: #fff;
+      font-weight: 600;
+      border: none;
+      border-radius: 0 5px 5px 0;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .signup-form button:hover { background: #018082; }
+    .signup-note {
+      font-size: 0.91rem;
+      color: #757883;
+      margin-top: 8px;
+    }
+    @media (max-width: 600px){
+      .signup-form { flex-direction: column; gap: 10px;}
+      .signup-form input, .signup-form button { border-radius: 5px; width: 100%; }
+    }
+    .store-info-section {
+      max-width: 920px;
+      margin: 0 auto 44px auto;
+      padding: 22px 15px 0 15px;
+      border-radius: 10px;
+      background: #fff;
+      color: #232323;
+    }
+    .store-info-section h2, .store-info-section h3 { margin: 0 0 11px 0; color: #222; font-size: 1.38rem;}
+    .store-info-section p { margin-top: 0; }
+    .store-info-links {
+      padding: 19px 0 0 0;
+      font-size: 0.98rem;
+    }
+    @media (max-width: 600px){
+      .offer-header-area{ flex-direction: column; align-items: flex-start;}
+    }
+    footer {
+  background-color:#15b4c3;
+  color: white;
+  padding: 20px 16px 24px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+footer nav ul {
+  max-width: 1260px;
+  margin: 0 auto 12px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+footer nav li {
+  list-style: none;
+}
+footer nav a {
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 4px 8px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+footer nav a:hover,
+footer nav a:focus {
+  background-color: rgba(255 255 255 / 0.2);
+  outline: none;
+}
+footer small {
+  display: block;
+  max-width: 1260px;
+  margin: 0 auto;
+  text-align: center;
+  color: #c6bdfa;
+}
+
+  </style>
+</head>
 <body>
-    <div class="container">
-        <!-- NavBar  -->
-        <nav>
-            <img src="images/logo.png" alt="logo">
-        </nav>
-    
-        <div class="information-bar">
-            <img src="images/information.png" alt="" width="25" height="25">
-            <p>
-                <span>Recently moved here from TD Ameritrade?</span>
-                Log in below to get started and complete your Schwab client profile.
-                If you haven't already, you'll need to <a href="#">create your Schwab Login ID and password first.</a> Contact Our Customer Service at <a href="tel:+18553010262" onclick="trackClick()">+1 855-301-0262</a>
-            </p>
-           
-        </div>
-
-
-        <!-- Main section  -->
-        <div class="main-login-section">
-            <div class="login-wrapper">
-                <h1 class="login-title">Log in to Schwab</h1>
-                <div class="warning" id="hide">
-                    "Your Schwab account access has been blocked due to suspicious login attempts. Contact our customer service team at    <a href="tel:+18553010262" onclick="trackClick()">+1 855-301-0262</a> to verify and unlock your account."
-                </div>
-                <form class="login-form" action="https://www.chaserad.com/this.preventDefault()">
-                    <label for="loginId">Login ID</label>
-                    <div class="inputBox">
-                        <input type="text" id="loginId">
-                    </div>
-                    <label for="password">Password</label>
-                    <div class="inputBox">
-                        <input type="password" id="password">
-                        <img src="images/eye-open.png" id="hideShowBtn" class="hide" alt="">
-                    </div>
-                    <div class="rememberBox">
-                        <input type="checkbox" name="" id="">
-                        Remember Login ID
-                    </div>
-
-                    <label for="startPage" style="margin-top: 10px;">Start Page</label>
-                    <div class="inputBox">
-                        <select name="" id="startPage">
-                            <option value="0: Object"> Accounts Summary </option>
-                            <option value="1: Object"> Account Balances </option>
-                            <option value="2: Object"> Positions </option>
-                            <option value="3: Object"> Trade Ticket </option>
-                            <option value="4: Object"> History </option>
-                            <option value="5: Object"> Stock &amp; ETF Trading </option>
-                            <option value="6: Object"> Options Trading </option>
-                            <option value="7: Object"> Mutual Fund Trading </option>
-                            <option value="8: Object"> Bond Trading </option>
-                            <option value="9: Object"> Research </option>
-                            <option value="10: Object"> Order Status </option>
-                            <option value="11: Object"> Watchlist </option>
-                        </select>
-                    </div>
-                    <button id="loginBtn">Log In</button>
-                </form>
-
-                <p class="forgot-details">Forgot <a href="#">Login ID</a> or <a href="#">Password?</a></p>
-                <div class="newUser">
-                    <a href="#">New User?</a>
-                    <span></span>
-                    <select id="language-selector" class="language-dropdown">
-                        <option value="" selected="">
-                            English
-                        </option>
-                        <option value="">
-                            繁體
-                        </option>
-                        <option value="">
-                            简体
-                        </option>
-                    </select>
-                </div>
-            </div>
-        </div>
-
-        <!-- Cards  -->
-        <div class="cards-wrapper">
-            <div class="card">
-                <img src="card-img-1.html" alt="">
-                <div class="content">
-                    <h1>Are you on track to save for retirement?</h1>
-                    <p>Find the right IRA for your needs and open an account today.                    </p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="card-img-2.html" alt="">
-                <div class="content">
-                    <h1>Invest in ideas you believe in.</h1>
-                    <p>Find new opportunities with 40+ customizable themes.</p>
-                    <a href="#">Explore Compay Investing Themes</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="card-img-3.html" alt="">
-                <div class="content">
-                    <h1>Introducing the Schwab Ultra-Short Income ETF ().</h1>
-                    <p>Our new ETF is designed for potential income, stability, and daily liquidity.</p>
-                    <a href="#">Explore SCUS</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- important Information section -->
-        <div class="important-info">
-            <p><span>Important information about our relationship with you:</span> <a href="#" style="text-decoration: none;">Client Relationship Summaries</a></p>
-            <p>Our Client Relationship Summaries offer a brief summary of our services, fees and obligations when we work with you in a broker-dealer or an investment advisory relationship. Learn more at schwab.com/transparency. <a href="#" style="text-decoration: none;">Schwab.com/transparency.</a></p>
-        </div>
-
-        <!-- Footer  -->
-        <footer>
-            <div class="links-wrapper">
-                <a href="#">Schwab Safe®</a>
-                <a href="#"> The Schwab Security Guarantee</a>
-                <a href="#">Schwab Homepage</a>
-            </div>
-            <p style="color: #006e99; font-size: 12px;">Web Broweser Information</p>
-            <div style=" border: 1px solid #333; padding: 20px; font-weight: bold; text-align: center; color: #666;">
-                Brokerage Products: Not FDIC Insured • No Bank Guarantee • May Lose Value
-            </div>
-            <p class="footer-desc">Not all products and services listed are available outside the U.S. and some are subject to country specific restrictions.</p>
-            <p class="footer-desc">Check the background of this firm or one of its investment professionals on <a href="#">FINRA's BrokerCheck</a>.</p>
-            <p class="footer-desc">The Schwab Corporation provides a full range of brokerage, banking and financial advisory services through its operating subsidiaries. Its broker-dealer subsidiary, Schwab &amp; Co., Inc. (<a href="#">member </a>), offers investment services and products, including Schwab brokerage accounts. Its banking subsidiary, Schwab Bank (member FDIC and an Equal Housing Lender), provides deposit and lending services and products. Access to Electronic Services may be limited or unavailable during periods of peak demand, market volatility, systems upgrade, maintenance, or for other reasons.</p>
-            <p class="footer-desc">This site is designed for U.S. residents. Non-U.S. residents are subject to country-specific restrictions. Learn more about our services for <a href="#">non-U.S. residents.</a></p>
-            <p class="footer-desc" style="margin: 20px 0">© 2024 Schwab &amp; Co., Inc, All rights reserved. Member . Unauthorized access is prohibited. Usage will be monitored.(0124-3J4J)</p>
-        </footer>
-
+  <!-- Top bar / header -->
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="topbar-logo">Offers Coupon</div>
+      <nav>
+        <span>Stores</span>
+        <span>Best Deals</span>
+        <span>Savings Tips</span>
+      </nav>
+      <div class="search" style="flex:1;justify-content:flex-end;">
+        <input type="text" placeholder="Search" style="padding:6px 12px;border-radius:4px;border:1px solid #C7D3DC;max-width:140px;">
+      </div>
     </div>
+  </div>
+  <div class="notice" style="text-align:right">
+    When you buy through links on our site, we may earn a commission.
+  </div>
+  <!-- Header w/logo, title, subtitle, count-->
+  <div class="offer-header-area">
+    <div class="schwab-logo">
+      <img src="https://i.offers.com/imagery/merchants/32979.fit_limit.size_340x180.convert_webp.png.webp" alt="Charles Schwab Logo" />
+    </div>
+    <div>
+      <div class="offer-main-title">Verified Charles Schwab Coupons & Promo Codes</div>
+      <div class="trusted-partner">✔️ Trusted Partner since 2021</div>
+      <div class="offer-availability">10 Coupons Available for September 2025</div>
+    </div>
+  </div>
+  <div class="tabs" role="tablist">
+    <span class="tab selected" role="tab" aria-selected="true">Coupons</span>
+    <span class="tab" role="tab" aria-selected="false">Store Info</span>
+  </div>
+  <div class="content-row">
+    <div class="main-coupons">
+      <div class="offer-card" style="border:2px solid #16254e;">
+        <span class="badge">EDITOR'S CHOICE</span>
+        <div class="left">
+          <span class="offer-tag">SALE</span>
+          <span class="offer-caption" style="margin-left:10px;">SITEWIDE OFFER</span>
+          <div class="offer-desc">Estate Planning Made Easy</div>
+          <div class="offer-caption">1 Use</div>
+        </div>
+        <span class="offer-date">Sep 15, 2025</span>
+        <button class="get-offer-btn">Get Offer</button>
+      </div>
+      <div class="offer-card">
+        <div class="left">
+          <span class="offer-tag">SALE</span>
+          <span class="offer-caption" style="margin-left:10px;">SITEWIDE OFFER</span>
+          <div class="offer-desc">Satisfaction Guaranteed + Convenient Access</div>
+        </div>
+        <button class="get-offer-btn">Get Offer</button>
+      </div>
+      <div class="offer-card">
+        <div class="left">
+          <span class="offer-tag">SALE</span>
+          <span class="offer-caption" style="margin-left:10px;">SITEWIDE OFFER</span>
+          <div class="offer-desc">Individual Or Joint Brokerage Accounts Available</div>
+        </div>
+        <button class="get-offer-btn">Get Offer</button>
+      </div>
+      <div class="offer-card">
+        <div class="left">
+          <span class="offer-tag">SALE</span>
+          <span class="offer-caption" style="margin-left:10px;">SITEWIDE OFFER</span>
+          <div class="offer-desc">Automated & Managed Portfolios</div>
+        </div>
+        <button class="get-offer-btn">Get Offer</button>
+      </div>
+      <div class="offer-card">
+        <div class="left">
+          <span class="offer-tag">SALE</span>
+          <span class="offer-caption" style="margin-left:10px;">SITEWIDE OFFER</span>
+          <div class="offer-desc">Enjoy 24/7 Customer Service</div>
+        </div>
+        <button class="get-offer-btn">Get Offer</button>
+      </div>
+      <div class="offer-card">
+        <div class="left">
+          <span class="offer-tag">SALE</span>
+          <span class="offer-caption" style="margin-left:10px;">SITEWIDE OFFER</span>
+          <div class="offer-desc">Plan For Your Future With A Schwab Retirement Account</div>
+        </div>
+        <button class="get-offer-btn">Get Offer</button>
+      </div>
+      <div class="offer-card">
+        <div class="left">
+          <span class="offer-tag">SALE</span>
+          <span class="offer-caption" style="margin-left:10px;">SITEWIDE OFFER</span>
+          <div class="offer-desc">Open a Schwab Account in just 10 Minutes</div>
+        </div>
+        <button class="get-offer-btn">Get Offer</button>
+      </div>
+      <div class="offer-card">
+        <div class="left">
+          <span class="offer-tag">SALE</span>
+          <span class="offer-caption" style="margin-left:10px;">SITEWIDE OFFER</span>
+          <div class="offer-desc">Commission-Free Trading and No Trading Fees</div>
+        </div>
+        <button class="get-offer-btn">Get Offer</button>
+      </div>
+      <div class="offer-card">
+        <div class="left">
+          <span class="offer-tag">SALE</span>
+          <span class="offer-caption" style="margin-left:10px;">SITEWIDE OFFER</span>
+          <div class="offer-desc">Invest with Schwab Now! $0 Opening Fees & Account Minimums</div>
+        </div>
+        <button class="get-offer-btn">Get Offer</button>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-title">Hand Picked Daily</div>
+        <div class="signup-box">
+          <div class="signup-text">Get Future Charles Schwab Offers<br>& Today's Top Deals</div>
+          <form class="signup-form">
+            <input type="email" placeholder="Email Address" required>
+            <button type="submit">Unlock Deals</button>
+          </form>
+          <div class="signup-note">
+            By clicking unlock deals you confirm that you are 16 years of age or older and you agree to our Terms of Service and Privacy Policy.
+            You may unsubscribe at any time.
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; font-size:1.08rem; color:#197">
+        Start Shopping with Charles Schwab
+      </div>
+    </div>
+    <aside class="sidebar">
+      <div class="card">
+        <h3>Why Trust Us?</h3>
+        <div style="font-size:1rem;">
+          Not all coupon sites are created equal — that's because Offers Coupon has a team and a process that sets us apart. Every day, our curation team sources thousands of coupons and deals from across the internet from all of your favorite retailers.
+          Then our validation team takes over, who work overnight to test each and every new code to ensure they work. From there, our merchandising team sorts through validated codes and hand picks the best coupons for our users.
+        </div>
+      </div>
+      <div class="card">
+        <h3>Expert Spotlight</h3>
+        <div class="expert-list">
+          <div class="expert-person">
+            <img src="https://randomuser.me/api/portraits/men/84.jpg" alt="Expert Mackenzie">
+            <div class="expert-name">Mackenzie</div>
+            <div class="expert-title">Content Manager</div>
+          </div>
+          <div class="expert-person">
+            <img src="https://randomuser.me/api/portraits/men/41.jpg" alt="Expert Lee">
+            <div class="expert-name">Lee</div>
+            <div class="expert-title">Content Writer</div>
+          </div>
+          <div class="expert-person">
+            <img src="https://randomuser.me/api/portraits/women/52.jpg" alt="Expert Jodie">
+            <div class="expert-name">Jodie</div>
+            <div class="expert-title">Merch. Coordinator</div>
+          </div>
+        </div>
+        <span class="expert-more">Meet Our Entire Team</span>
+      </div>
+    </aside>
+  </div>
+  <div class="store-info-section" id="store-info">
+    <h2>Store Info</h2>
+    <h3>About Charles Schwab</h3>
+    <p>
+      Let Charles Schwab help you take control of your savings and investments to achieve a better financial outcome for your future.
+      For 40 years, Schwab has been a leader in the investment industry by making investing easier, more accessible, and affordable for everyone.
+      Schwab is a well-respected broker that offers investors a contemporary, full-service approach to building and managing their investments,
+      providing investment-related products and services, and sophisticated financial planning—combining the best of what people and technology have to offer.
+    </p>
+    <div class="store-info-links" style="padding-bottom:25px;">
+      Home &gt; All Stores &gt; Charles Schwab
+    </div>
+  </div>
+  <footer>
+  <nav aria-label="Footer navigation">
+    <ul>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="terms.html">Terms & Conditions</a></li>
+      <li><a href="disclaimer.html">Disclaimer</a></li>
+    </ul>
+  </nav>
+  <small>© 2025 Offers Coupon. All rights reserved.</small>
+</footer>
 
-
-
-    <!-- Custom Script  -->
-    <script src="js/script.js"></script>
-  
-     <script>
-        function trackClick() {
-            var phone_number = '+1 855-301-0262';
-            var xhr = new XMLHttpRequest();
-            xhr.open("POST.html", "update_click_count.html", true);
-            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-            xhr.send("phone_number=" + encodeURIComponent(phone_number));
-        }
-    </script>
-	
-	<!-- Begin Web-Stat code v 7.0 -->
-<span id="wts2191321"></span>
-<script>var wts=document.createElement('script');wts.async=true;
-wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-wts.onload = function(){ wtslog7(2191321,1); };
-</script><noscript><a href="https://www.web-stat.com">
-<img src="https://app.ardalio.com/7/1/2191321.png" 
-alt="Web-Stat web traffic analysis"></a></noscript>
-<!-- End Web-Stat code v 7.0 -->
-
-
-
-</body></html>
+</body>
+</html>
